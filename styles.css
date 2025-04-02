@@ -1,0 +1,162 @@
+body {
+    background: linear-gradient(to left, #0f0c29, #302b63, #24243e); 
+    font-family: Arial, sans-serif;
+    color: #ffffff; 
+    text-shadow: none; 
+}
+
+.navbar {
+    padding: 15px;
+    box-shadow: 0 4px 6px #302b63;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); 
+    border: 1px solid #302b63; 
+    text-shadow: none; 
+}
+
+.navbar-brand img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 10px #520dffae, 0 0 20px #000000ae; 
+}
+
+
+.hero-section {
+    background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e); 
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: none; 
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.hero-section .container {
+    position: relative;
+    z-index: 2;
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: #1a1a2e; 
+    box-shadow: 0 0 10px #520dffae, 0 0 20px #520dffae; 
+    color: #ffffff; 
+    text-shadow: none; 
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px #520dffae, 0 0 30px #520dffae; 
+}
+
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #6c63ff, 0 0 20px #0da6ff; 
+}
+
+.btn-primary {
+    background-color: #6c63ff; 
+    border: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    text-shadow: none; 
+    box-shadow: 0 0 5px #4a90e2; 
+}
+
+.btn-primary:hover {
+    background-color: #6c63ff; 
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #6c63ff; 
+}
+
+.btn-secondary {
+    background-color: #6c63ff; 
+    border: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    text-shadow: none; 
+    box-shadow: 0 0 5px #6c63ff; 
+}
+
+.btn-secondary:hover {
+    background-color: #524ce8; 
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #524ce8; 
+}
+
+.btn-outline-primary {
+    border-color: #6c63ff; 
+    color: #6c63ff;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-shadow: none; 
+    box-shadow: none; 
+}
+
+.btn-outline-primary:hover {
+    background-color: #6c63ff;
+    color: white;
+    box-shadow: none; 
+}
+
+.nav-link {
+    color: #ffffff;
+    text-shadow: none; 
+}
+
+.nav-link:hover {
+    color: #6c63ff;
+    text-shadow: none; 
+}
+
+.display-4 {
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #6c63ff, 0 0 20px #0da6ff; 
+}
+
+#about .btn-primary {
+    background-color: #6c63ff;
+    border: none;
+    transition: background-color 0.3s ease-in-out, transform 0.2s;
+    text-shadow: none;
+    box-shadow: 0 0 5px #4a90e2;
+    width: auto;
+}
+
+#about .btn-primary:hover {
+    background-color: #524ce8;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #524ce8;
+}
+
+#about .card img {
+    border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    height: auto;
+    max-height: none; 
+    width: 100%; 
+    display: block; 
+}
